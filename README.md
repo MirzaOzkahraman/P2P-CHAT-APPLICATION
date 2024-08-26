@@ -1,11 +1,11 @@
 Peer-to-Peer Chat Application
 This project is a Python-based peer-to-peer chat application that operates over the same Wi-Fi network across different computers. 
-The application offers various features such as viewing online users, chat history, and the ability to initiate both secure and insecure chats.
+The application offers various features such as viewing online users, chat history, and the ability to initiate both secure and unsecure chats.
 
 Features
 View Online Users: Easily see who is currently online.
 Chat History: Access past conversations.
-Secure & Insecure Chats: Start a chat session that can be secure or insecure based on your preference. 
+Secure & unsecure Chats: Start a chat session that can be secure or unsecure based on your preference. 
 Secure chats use the Diffie-Hellman algorithm to encrypt messages, ensuring that only the intended recipient can decrypt them.
 
 Getting Started
@@ -25,7 +25,7 @@ Enter your username to start. From this interface, you can:
 
   View online users.
   Choose who to chat with.
-  Initiate either a secure or insecure chat.
+  Initiate either a secure or unsecure chat.
   View chat history.
 
 Usage
