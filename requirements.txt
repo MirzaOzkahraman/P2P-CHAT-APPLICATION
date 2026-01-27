@@ -1,0 +1,25 @@
+# P2P Chat Application Dependencies
+# ==================================
+#
+# Installation with virtual environment (recommended):
+#   python3 -m venv venv
+#   source venv/bin/activate  # macOS/Linux
+#   pip install -r requirements.txt
+#
+# Or with pipx:
+#   brew install pipx
+#   pipx install pycryptodome
+
+# Core Python Standard Library (included with Python 3.8+):
+# - socket (networking)
+# - json (data serialization)
+# - threading (concurrent operations)
+# - hashlib (SHA-256 hashing)
+# - secrets (cryptographic random)
+# - signal (graceful shutdown)
+# - datetime (timestamps)
+# - time (delays)
+# - sys (system operations)
+
+# External Dependencies:
+pycryptodome>=3.20.0    # AES-256 encryption for secure chat
